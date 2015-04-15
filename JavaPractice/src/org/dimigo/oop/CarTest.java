@@ -6,7 +6,7 @@ package org.dimigo.oop;
  *	 |_ CarTest
  * 
  * 1. 개요 :
- * 2. 작성일 : 2015. 4. 14.
+ * 2. 작성일 : 2015. 4. 15.
  * </pre>
  *
  * @author	: 허석민
@@ -14,9 +14,12 @@ package org.dimigo.oop;
  */
 public class CarTest {
 	public static void main(String[] args) {
-		Car2 car1=new Car2("현대자동차","제네시스","검정색",225,50000000);
-		Car2 car2=new Car2("기아자동차","K7","흰색",246,40000000);
-		Car2 car3=new Car2("삼성자동차","SM7","흰색",200,38000000);
+//		Car3 car1=new Car3("현대자동차","제네시스","검정색",225,50000000);
+//		Car2 car2=new Car2("기아자동차","K7","흰색",246,40000000);
+//		Car2 car3=new Car2("삼성자동차","SM7","회색",200,38000000);
+		Car3 car1=new Car3("현대자동차","제네시스","검정색",225,50000000);
+		Car3 car2=new Car3("기아자동차","K7","흰색",246);
+		Car3 car3=new Car3("삼성자동차","SM7","회색");
 		
 //		//car1
 //		car1.setCompany("현대자동차");
